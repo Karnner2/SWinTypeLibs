@@ -1,10 +1,34 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html> <head>
-<title></title>
-</head>
+If you are arriving at this page--you have likely come here from Omegahat or the
+adjacent site Omegahat.net (the successor to Omegahat.com/R). I do not own either
+of those sites---I just need to use the utilities that Duncan Temple Lang has provided.
 
-<body>
-<h1></h1>
+Unfortunately, we are all very lazy people. No one seems to want to manage these
+packages for Duncan, and he (rightfully) has moved on in his career. Alas, while
+people continuously post on StackExchange/Overflow bemoaning that the packages
+won't compile out of the box after 10 years (!!) on the shelf--no one addresses the problems
+in the packages! Someone, no not me, probably should pick up and take over the 
+maintenance. Like me, Duncan is probably too busy as he is an Assoc Dean now.
+So, we can't blame him. 
+But we do love his packages! 
+
+To that end, I have applied a few quick fixes to this package that will now 
+allow it to compile from source. And, yes, you will need to do that. From 
+what I can tell the other option is a binary file on Omegahat.net which 
+is built under an old version of R (R<3.0.0). 
+
+Make sure you have Rcpp updated as well as Rtools40 as 
+of the date of this writing (01/09/2022). 
+
+This will provide all the necessary documentation you require below. Note,
+the fixes I applied were small---I adjusted the .Rd (rdocumentation) files. 
+I make no warrants that the remainder of the code is correct--buyer beware and
+all that. 
+
+Duncan`s original help file below
+Best,
+JTFJ
+---------------------------------
+
 
 This provides S-language bindings to read Windows type libraries.  One
 can read descriptions of classes, interfaces, enumerations, methods,
@@ -16,7 +40,7 @@ bindings to the code within the corresponding library.
 
 <hr>
 <address><a href="http://www.stat.ucdavis.edu/~duncan">Duncan Temple Lang</a>
-<a href=mailto:duncan@wald.ucdavis.edu>&lt;duncan@wald.ucdavis.edu&gt;</a></address>
+[Note, I've redacted the email reference for DTL`s sake--please see his original help: JTFJ]
 <!-- hhmts start -->
 Last modified: Tue Jan  7 05:54:51 UTC 2003
 <!-- hhmts end -->
